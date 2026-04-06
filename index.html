@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ören Yapı Market | Boya, Hırdavat ve Tesisat</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandYellow: '#fce276', // Logodaki sarı tonu
+                        brandRed: '#ff2a00',    // Logodaki kırmızı tonu
+                        brandDark: '#1a1a1a',   // Logodaki siyah tonu
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Ekstra pürüzsüz kaydırma ve küçük dokunuşlar */
+        body { font-family: 'Poppins', sans-serif; }
+        .hero-pattern {
+            background-color: #1a1a1a;
+            background-image: radial-gradient(#333 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-brandDark antialiased">
+
+    <header class="bg-brandYellow sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="image.png" alt="Ören Yapı Market Logo" class="h-16 w-16 rounded-full object-cover bg-white shadow-sm">
+                <div>
+                    <h1 class="text-2xl font-extrabold tracking-tight text-brandDark uppercase leading-none">Ören</h1>
+                    <span class="text-sm font-bold text-brandRed uppercase tracking-widest">Yapı Market</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex gap-6 font-semibold">
+                <a href="#hizmetler" class="hover:text-brandRed transition-colors">Ürünlerimiz</a>
+                <a href="#iletisim" class="hover:text-brandRed transition-colors">İletişim</a>
+            </nav>
+            <a href="tel:02163149912" class="hidden md:flex items-center gap-2 bg-brandDark text-brandYellow px-5 py-2 rounded-full font-bold hover:bg-brandRed hover:text-white transition-all">
+                <i class="fa-solid fa-phone"></i> 0216 314 99 12
+            </a>
+        </div>
+    </header>
+
+    <section class="hero-pattern text-white py-24 px-4 relative overflow-hidden">
+        <div class="container mx-auto text-center relative z-10">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-6">
+                Evinizin ve İş Yerinizin <br>
+                <span class="text-brandYellow">Güvenilir Adresi</span>
+            </h2>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                Aradığınız her şey burada! Boyadan hırdavata, tesisat malzemelerinden alet edevata kadar en kaliteli ürünler Ören Yapı Market'te.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#iletisim" class="bg-brandRed text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-red-700 transition-all shadow-lg hover:shadow-red-500/30">
+                    Bize Ulaşın
+                </a>
+                <a href="https://share.google/WHNRhyHVk4JnpV8iG" target="_blank" class="bg-white text-brandDark px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-200 transition-all shadow-lg">
+                    <i class="fa-solid fa-location-dot text-brandRed mr-2"></i> Yol Tarifi Al
+                </a>
+            </div>
+        </div>
+        <div class="absolute -bottom-10 left-1/2 transform -translate-x-1/2 opacity-10 text-brandYellow text-9xl">
+            <i class="fa-solid fa-house-chimney"></i>
+        </div>
+    </section>
+
+    <section id="hizmetler" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl md:text-4xl font-bold mb-3">Zengin Ürün Çeşitlerimiz</h3>
+                <div class="h-1 w-20 bg-brandRed mx-auto rounded-full"></div>
+                <p class="text-gray-600 mt-4">İhtiyacınıza uygun binlerce ürün çeşidi stoklarımızda.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center group">
+                    <div class="w-20 h-20 bg-brandYellow rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brandRed transition-colors">
+                        <i class="fa-solid fa-paint-roller text-3xl text-brandDark group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Boya ve İzolasyon</h4>
+                    <p class="text-gray-600">İç cephe, dış cephe, tavan boyaları, astarlar, fırçalar ve tüm yalıtım malzemeleri.</p>
+                </div>
+
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center group">
+                    <div class="w-20 h-20 bg-brandYellow rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brandRed transition-colors">
+                        <i class="fa-solid fa-hammer text-3xl text-brandDark group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Hırdavat Malzemeleri</h4>
+                    <p class="text-gray-600">El aletleri, elektrikli aletler, vidalar, çiviler, kilitler ve iş güvenliği ekipmanları.</p>
+                </div>
+
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center group">
+                    <div class="w-20 h-20 bg-brandYellow rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brandRed transition-colors">
+                        <i class="fa-solid fa-wrench text-3xl text-brandDark group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Tesisat Malzemeleri</h4>
+                    <p class="text-gray-600">Su tesisatı, borular, bataryalar, musluklar ve banyo/mutfak yedek parçaları.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row">
+                
+                <div class="lg:w-1/3 bg-brandDark text-white p-10 flex flex-col justify-center">
+                    <h3 class="text-3xl font-bold mb-6 text-brandYellow">İletişim Bilgileri</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot text-brandRed text-xl mt-1"></i>
+                            <div>
+                                <h5 class="font-semibold text-gray-300">Adres</h5>
+                                <p class="text-white">Mevlana mah. Sakarya cad. Mine sok. No:5A<br>Ataşehir / İstanbul</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-phone text-brandRed text-xl"></i>
+                            <div>
+                                <h5 class="font-semibold text-gray-300">Telefon</h5>
+                                <a href="tel:02163149912" class="text-white hover:text-brandYellow transition-colors">0216 314 99 12</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-envelope text-brandRed text-xl"></i>
+                            <div>
+                                <h5 class="font-semibold text-gray-300">E-posta</h5>
+                                <a href="mailto:info@orenyapimarket.com" class="text-white hover:text-brandYellow transition-colors">info@orenyapimarket.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-8 border-t border-gray-700">
+                        <h5 class="font-semibold text-gray-300 mb-4 text-sm uppercase tracking-wider">Bizi Takip Edin</h5>
+                        <div class="flex gap-4">
+                            <a href="https://facebook.com/orenyapimarket" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-[#1877F2] transition-colors shadow-lg">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://x.com/orenyapimarket" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-black transition-colors shadow-lg">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com/orenyapimarket" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-[#E4405F] transition-colors shadow-lg">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://youtube.com/@orenyapimarket" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-[#FF0000] transition-colors shadow-lg">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <a href="https://share.google/WHNRhyHVk4JnpV8iG" target="_blank" class="block w-full text-center border-2 border-brandYellow text-brandYellow py-3 rounded-lg font-bold hover:bg-brandYellow hover:text-brandDark transition-colors">
+                            Google Haritalar'da Aç
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:w-2/3 h-96 lg:h-auto min-h-[400px]">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.666195726359!2d29.155452!3d40.988775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac6b8c9d0d3b1%3A0x7d81a8b139c27947!2sMevlana%2C%20Sakarya%20Cd.%20Mine%20Sk.%20No%3A5A%2C%2034779%20Ata%C5%9Fehir%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brandDark text-center py-10 border-t border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center gap-6 mb-6">
+                <a href="https://facebook.com/orenyapimarket" target="_blank" class="text-gray-400 hover:text-brandYellow text-2xl transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/orenyapimarket" target="_blank" class="text-gray-400 hover:text-brandYellow text-2xl transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com/orenyapimarket" target="_blank" class="text-gray-400 hover:text-brandYellow text-2xl transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com/@orenyapimarket" target="_blank" class="text-gray-400 hover:text-brandYellow text-2xl transition-colors"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            
+            <p class="text-gray-400 text-sm">
+                © 2026 Ören Yapı Market. Tüm hakları saklıdır.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
